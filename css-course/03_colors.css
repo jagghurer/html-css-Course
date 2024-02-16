@@ -1,0 +1,19 @@
+.color-1 {
+    color: crimson;
+}
+
+.color-2 {
+    color: #4B0082;
+}
+
+.color-3 {
+    color: #182;
+}
+
+.color-4 {
+    color: rgb(100, 100, 255);
+}
+
+.color-5 {
+    color: rgba(255, 100, 0, 0.5);
+}

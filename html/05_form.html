@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Формы</title>
+</head>
+<body>
+    <h1>Формы</h1>
+
+    <form>
+        <div>
+            <label for="text2">Поиск</label>
+            <input type="text" id="text2" value="Текст по умолчанию">
+        </div>
+
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email"
+            placeholder="Введите email">
+        </div>
+
+        <div>
+            <label for="password">Пароль</label>
+            <input type="password" id="password">
+        </div>
+
+        <div>
+            <label for="number">Число</label>
+            <input type="number" id="number">
+        </div>
+
+        <div>
+            <label for="range">Range</label>
+            <input type="range" id="range" min="0" max="10" step="1">
+        </div>
+
+        <div>
+            <label for="date">Дата</label>
+            <input type="date" id="date">
+        </div>
+
+        <div>
+            <label for="color">Цвет</label>
+            <input type="color" id="color">
+        </div>
+
+        <div>
+            <label for="massage">Сообщение</label>
+            <br>
+            <textarea id="massage" cols="25" rows="5"></textarea>
+        </div>
+
+        <div>
+            <label for="sex">Ваш пол</label>
+            <select id="sex">
+                <option value="male" selected>Мужчина</option>
+                <option value="female">Женщина</option>
+                <option value="other">Другое</option>
+            </select>
+        </div>
+
+
+        <div>
+            <label>Количество работ</label>
+            <input type="radio" name="work">1
+            <input type="radio" name="work">2
+            <input type="radio" name="work">5
+            <input type="radio" name="work">10+
+        </div>
+
+        <div>
+            <label>Любимая еда</label>
+            <input type="checkbox" name="food">Курица
+            <input type="checkbox" name="food">Чипесы
+            <input type="checkbox" name="food">Роллы
+            <input type="checkbox" name="food">Стейки
+        </div>
+
+        <!-- <input type="submit" value="Отправить форму"> -->
+        <br>
+        <button type="submit"> Отправить форму </button>
+
+        <!-- Задача!
+            Добавьте в конце сайта форму: “Связаться со мной”.
+            В ней должны быть поля:
+            Имя
+            Email
+            Сообщение
+            Кнопка "Отправить"
+            Для каждого поля добавьте атрибут placeholder с подсказкой.
+         -->
+
+         <hr>
+
+            <h2>Связаться со мной</h2>
+
+            <div>
+                <label for="name">Ваше имя:</label>
+                <input type="text" id="name" placeholder="Введите имя">
+            </div>
+
+            <div>
+                <label for="email">Ваш email:</label>
+                <input type="email" id="email" placeholder="Введите email">
+            </div>
+            <div>
+                <label for="massage">Ваше сообщение:</label>
+                <br>
+                <textarea id="massage" cols="20" rows="5" placeholder="Введите сообщение..."></textarea>
+            </div>
+            <button type="submit">Отправить</button>
+
+
+    </form>
+</body>
+</html>
